@@ -1,0 +1,22 @@
+main{
+    position: relative;
+    z-index: 2;
+    border: 2px  rgba(0,0,0,0.1);
+    border-style: double;
+}
+.form__p{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+.section__div{
+    max-width: 500px;
+    margin: 10px auto;
+}
+.container{
+    padding: 12px;
+}
+.body__header{
+    width: 100%;
+    height: 50px;
+}

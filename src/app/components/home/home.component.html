@@ -1,0 +1,7 @@
+<body>
+    <header>
+        <h1  *ngFor="let usuarios of UserLogin" class="frase">Bienvenido {{usuarios.name}} {{usuarios.lastName}}  </h1>
+    </header>
+    <app-form *ngIf="UserLogin" (Show)="busqueda($event)"></app-form>
+
+</body>
